@@ -1,1 +1,1 @@
-print('Hello IoT')
+print('Hello IoT!')

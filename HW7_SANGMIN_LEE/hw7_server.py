@@ -39,7 +39,7 @@ while True:
             server_socket.sendto("OK".encode(), addr)
 
         # receive mboxId 처리
-        elif message.startswith("receive ")
+        elif message.startswith("receive "):
             parts = message.split(" ", 1)
             if len(parts) < 2:
                 server_socket.sendto("Invalid receive command".encode(), addr)
